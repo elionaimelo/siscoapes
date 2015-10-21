@@ -40,7 +40,7 @@
               <div style="clear:left;"></div>
 
               <div id="logo">
-                  <a id="portal-logo" title="Secretaria da Receita Federal do Brasil" href="#">
+                  <a id="portal-logo" title="Siscoapes" href="index.php">
                           <span id="portal-title-1">Sistema (versão beta)</span>
                           <h1 id="portal-title" class="luongo">Siscoapes</h1>
                   </a>
