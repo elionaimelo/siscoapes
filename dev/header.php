@@ -39,10 +39,20 @@
 
               <div id="logo">
                   <a id="portal-logo" title="Secretaria da Receita Federal do Brasil" href="#">
-                          <span id="portal-title-1">Sistema</span>
-                          <h1 id="portal-title" class="luongo">Cadastro Nacional de Especialistas</h1>
+                          <span id="portal-title-1">Sistema (versão beta)</span>
+                          <h1 id="portal-title" class="luongo">Siscoapes</h1>
                   </a>
               </div><!-- ./logo -->
+
+
+              <div style="clear:right;"></div>
+
+              <div class="portalseachbox pull-right">
+                <div class="form-group">
+                  <input class="form-control" type="search"  placeholder="Busca no portal">
+                  <span class="glyphicon glyphicon-search"></span>
+                </div>
+              </div>
           </div>
         </section><!-- ./top -->
         <section class="sub-top">

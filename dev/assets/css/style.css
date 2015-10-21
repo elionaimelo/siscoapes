@@ -5,6 +5,7 @@
   list-style: none;
 }
 a {
+  color: #1659bf;
   text-decoration: none;
 }
 a:hover {
@@ -36,6 +37,14 @@ body {
   width: 72.1%;
   float: left;
 }
+.col-one,
+.col-two {
+  width: 15.625%;
+  float: left;
+}
+.col-two {
+  width: 79.75%;
+}
 .remove-margin {
   margin: 0px;
 }
@@ -43,6 +52,132 @@ aside {
   float: left;
   width: 23.8%;
   position: relative;
+}
+#portal-breadcrumbs {
+  margin-top: 19px;
+  margin-bottom: 19px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+#portal-breadcrumbs a {
+  color: #2C66CE;
+}
+.title-header {
+  border-top: 4px solid #1659bf;
+  background: #eeeff1;
+  padding: 6px 15px;
+  padding-right: 0px;
+  color: #2160BD;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  background-color: #1659bf;
+  border-color: #1659bf;
+}
+.espace-left {
+  margin-left: 30px;
+}
+.espace-right {
+  margin-right: 30px;
+}
+.espace-top {
+  margin-top: 30px;
+}
+.portletHeader {
+  border-top: 4px solid #1659bf;
+  color: #1659bf;
+  margin: 0;
+  padding: 8px 8px 24px 10px;
+  border-bottom: none;
+  background: #edeff1;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navTree li {
+  border-top: 1px solid #dfdfdf;
+  border-bottom: none;
+  padding: 6px 0px 6px 20px;
+}
+.navTree li a {
+  color: black;
+}
+.navTree li a:first-child {
+  display: block;
+  width: 113%;
+  margin-left: -19px;
+  padding-left: 20px;
+  padding-bottom: 4px;
+}
+.sub-navTree {
+  margin: 0px;
+  margin-left: -20px;
+  padding: 0px;
+}
+.sub-navTree li {
+  color: #8c8989;
+  margin-left: 15px;
+  border-top: none;
+}
+/* ------------------- Carousel Styling ------------------- */
+.carousel-inner {
+  border-radius: 15px;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+}
+.carousel-caption h2 {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 1.45em;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+.bt-explication a {
+  display: block;
+}
+.portalseachbox {
+  margin-top: 20px;
+  position: relative;
+}
+.portalseachbox .form-control {
+  padding-right: 30px;
+}
+.portalseachbox .form-control + .glyphicon {
+  position: absolute;
+  right: 0;
+  padding: 8px 10px;
+  color: #1659bf;
+}
+.bt-search {
+  margin-left: 16px;
+  background: #1659bf;
 }
 /* ==========================================================================
  Cabeçalho
@@ -204,3 +339,39 @@ footer .doormatColumn {
 /* ==========================================================================
 fim do footer
 ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .index main .col-2,
+  .forca-trabalho main .col-2,
+  .col-one,
+  .col-two {
+    width: 100%;
+    float: none;
+  }
+  .portalseachbox {
+    float: none !important;
+  }
+  .banner {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 25px;
+  }
+  .index main aside,
+  .forca-trabalho main aside {
+    width: 60%;
+  }
+  .forca-trabalho .col-1 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header .top nav ul {
+    width: 100%;
+  }
+  .index main .col-1 {
+    width: 100%;
+  }
+  footer .doormatColumn {
+    float: none;
+  }
+}
