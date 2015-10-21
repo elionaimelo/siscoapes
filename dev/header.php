@@ -37,6 +37,8 @@
                   <li id="siteaction-mapadosite" class="last-item"><a href="#" title="Mapa do Site" accesskey="7">Mapa do Site</a></li>
               </ul>
 
+              <div style="clear:left;"></div>
+
               <div id="logo">
                   <a id="portal-logo" title="Secretaria da Receita Federal do Brasil" href="#">
                           <span id="portal-title-1">Sistema (versão beta)</span>
@@ -47,12 +49,23 @@
 
               <div style="clear:right;"></div>
 
-              <div class="portalseachbox pull-right">
+              <!--<div class="portalseachbox pull-right">
                 <div class="form-group">
                   <input class="form-control" type="search"  placeholder="Busca no portal">
                   <span class="glyphicon glyphicon-search"></span>
                 </div>
+              </div>-->
+
+              <!-- Para usar na pagina quando usário está logado -->
+
+              <div class="perf-user">
+                <p class="user-logged">
+                  Nome do usuário
+                </p>
+                <button class="btn btn-default btn-sm" type="submit">Sair</button>
               </div>
+
+
           </div>
         </section><!-- ./top -->
         <section class="sub-top">

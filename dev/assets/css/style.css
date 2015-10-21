@@ -179,6 +179,49 @@ aside {
   margin-left: 16px;
   background: #1659bf;
 }
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.table1 td:last-child {
+  text-align: center;
+}
+.table1 > tbody > tr > td {
+  vertical-align: middle;
+}
+.perf-user {
+  float: right;
+  margin-top: 10px;
+}
+.perf-user button {
+  float: right;
+}
+.menu-title-header {
+  margin-bottom: 0px;
+  margin-top: -7px;
+}
+.menu-title-header li {
+  display: inline;
+  border-right: 1px solid #2160BD;
+  padding: 0 28px;
+  font-weight: 400;
+}
+.menu-title-header li:first-child {
+  padding-left: 0px;
+}
+.menu-title-header li:last-child {
+  border-right: none;
+}
+.ds-dados {
+  padding: 15px 30px;
+  background: #EAEBEE;
+}
+.ds-dados .form-group {
+  margin-bottom: 4px;
+}
+.ds-dados .form-group label {
+  color: #4E4E4E;
+}
 /* ==========================================================================
  Cabeçalho
  ========================================================================== */
@@ -347,22 +390,6 @@ fim do footer
     width: 100%;
     float: none;
   }
-  .portalseachbox {
-    float: none !important;
-  }
-  .banner {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding-top: 25px;
-  }
-  .index main aside,
-  .forca-trabalho main aside {
-    width: 60%;
-  }
-  .forca-trabalho .col-1 {
-    width: 100%;
-  }
 }
 @media only screen and (max-width: 600px) {
   header .top nav ul {
@@ -370,6 +397,15 @@ fim do footer
   }
   .index main .col-1 {
     width: 100%;
+  }
+  .portalseachbox {
+    float: none !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .menu-title-header li {
+    display: block;
+    padding: 10px 0;
   }
   footer .doormatColumn {
     float: none;

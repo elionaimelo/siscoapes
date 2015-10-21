@@ -48,6 +48,8 @@
                       </div><!-- ./#collapse1 -->
                     </li>
                     <li>Área de Gestores de Instituições de Ensino</li>
+                    <li>Cadastrar Gestor do SUS</li>
+                    <li>Cadastrar represetantes de IFs</li>
                     <li>Comitê Nacional</li>
                     <li>Comunidade de práticas</li>
                     <li>
