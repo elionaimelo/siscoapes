@@ -48,6 +48,16 @@
                               Voltar
                             </a>
                           </li>
+                          <li>
+                            <a href="#">
+                              Alterar dados
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              Alterar senha
+                            </a>
+                          </li>
                         </ul>
                       </div><!-- ./title-header -->
 
