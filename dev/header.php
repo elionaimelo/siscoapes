@@ -49,14 +49,14 @@
 
               <div style="clear:right;"></div>
 
-              <!--<div class="portalseachbox pull-right">
+              <div class="portalseachbox pull-right">
                 <div class="form-group">
                   <input class="form-control" type="search"  placeholder="Busca no portal">
                   <span class="glyphicon glyphicon-search"></span>
                 </div>
-              </div>-->
+              </div>
 
-              <!-- Para usar na pagina quando usário está logado -->
+              <!-- Para usar na pagina quando usário está logado
 
               <div class="perf-user">
                 <p class="user-logged">
@@ -64,6 +64,7 @@
                 </p>
                 <button class="btn btn-default btn-sm" type="submit">Sair</button>
               </div>
+              -->
 
 
           </div>

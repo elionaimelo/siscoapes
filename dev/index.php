@@ -43,7 +43,11 @@
                       <div class="collapse" id="collapse1">
                         <ul class="sub-navTree">
                           <li>Cadastramento</li>
-                          <li>Login</li>
+                          <li>
+                            <a href="login.php">
+                                Login
+                            </a>
+                          </li>
                         </ul>
                       </div><!-- ./#collapse1 -->
                     </li>

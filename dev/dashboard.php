@@ -20,6 +20,12 @@
                 <span id="breadcrumbs-home">
                     <a href="#">Página Inicial</a>
                 </span>
+                <span class="breadcrumbSeparator">
+                    &gt;
+                </span>
+                <span dir="ltr" id="breadcrumbs-2">
+                      <span id="breadcrumbs-current">Dashboard</span>
+                </span>
               </div><!-- ./portal-breadcrumbs -->
             </div><!-- ./viewlet-above-content -->
 
@@ -42,7 +48,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a href="cadastro-contato.php">
                               Novo contato
                             </a>
                           </li>
@@ -54,10 +60,14 @@
                         </ul>
                       </div><!-- ./title-header -->
 
-                      <p>
-                        Nullam in tortor quis felis vestibulum efficitur ut nec lectus. Praesent sed justo rhoncus, facilisis enim vitae, convallis sem. Morbi eros justo, sagittis ac ultrices vel, efficitur et magna. Donec sodales cursus ipsum. Pellentesque eu porttitor sapien. Praesent convallis auctor nisi, in volutpat eros condimentum ac. Nulla vitae lacus sed justo commodo blandit. Donec felis dui, sodales ut
-        Donec auctor nulla ornare ante semper, sit amet mollis lectus gravida. Maecenas risus augue, placerat vitae sem at, vehicula vehicula felis.
-                      </p>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <p>
+                            Nullam in tortor quis felis vestibulum efficitur ut nec lectus. Praesent sed justo rhoncus, facilisis enim vitae, convallis sem. Morbi eros justo, sagittis ac ultrices vel, efficitur et magna. Donec sodales cursus ipsum. Pellentesque eu porttitor sapien. Praesent convallis auctor nisi, in volutpat eros condimentum ac. Nulla vitae lacus sed justo commodo blandit. Donec felis dui, sodales ut
+            Donec auctor nulla ornare ante semper, sit amet mollis lectus gravida. Maecenas risus augue, placerat vitae sem at, vehicula vehicula felis.
+                          </p>
+                        </div>
+                      </div>
 
 
                       <div class="row espace-top">

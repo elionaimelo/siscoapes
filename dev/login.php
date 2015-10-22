@@ -20,6 +20,12 @@
                 <span id="breadcrumbs-home">
                     <a href="#">Página Inicial</a>
                 </span>
+                <span class="breadcrumbSeparator">
+                    &gt;
+                </span>
+                <span dir="ltr" id="breadcrumbs-2">
+                      <span id="breadcrumbs-current">Login</span>
+                </span>
               </div><!-- ./portal-breadcrumbs -->
             </div><!-- ./viewlet-above-content -->
 
@@ -27,7 +33,7 @@
             <div class="row row-log">
                       <div class="col-md-6">
                           <div class="well margin-top">
-                              <form id="loginForm" method="POST" action="/login/" novalidate="novalidate">
+                              <form id="loginForm" method="POST" action="dashboard.php" novalidate="novalidate">
                                   <div class="form-group">
                                       <label for="username" class="control-label">Usuário</label>
                                       <input type="text" class="form-control" name="loginUsuario" value="" required>
