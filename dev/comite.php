@@ -20,6 +20,12 @@
                 <span id="breadcrumbs-home">
                     <a href="#">Página Inicial</a>
                 </span>
+                <span class="breadcrumbSeparator">
+                    &gt;
+                </span>
+                <span dir="ltr" id="breadcrumbs-2">
+                      <span id="breadcrumbs-current">Comitê Nacional</span>
+                </span>
               </div><!-- ./portal-breadcrumbs -->
             </div><!-- ./viewlet-above-content -->
 
@@ -82,83 +88,25 @@
             </aside>
 
             <div class="col-two">
+              <h2 class="title-header">
+                Comite Nacional do COAPES
 
-                    <div id="carousel-one" class="carousel slide" data-ride="carousel">
-                      <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                          <li data-target="#carousel-one" data-slide-to="0" class="active"></li>
-                          <li data-target="#carousel-one" data-slide-to="1"></li>
-                          <li data-target="#carousel-one" data-slide-to="2"></li>
-                        </ol>
+                <a href="#" data-toggle="modal" data-target="#exp-comite">
+                  <span class="glyphicon glyphicon-exclamation-sign pull-right espace-right bt-explication">
 
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img src="http://placehold.it/800x400" alt="...">
-                          <div class="carousel-caption">
-                            <h2>text 1</h2>
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img src="http://placehold.it/800x400" alt="...">
-                          <div class="carousel-caption">
-                            <h2>Texto 2</h2>
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img src="http://placehold.it/800x400" alt="...">
-                          <div class="carousel-caption">
-                            <h2>Texto 3</h2>
-                          </div>
-                        </div>
-                      </div><!-- ./carousel-inner -->
+                  </span>
+                </a>
+              </h2>
 
-                                <!-- Controls
-                                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                                  <span class="glyphicon glyphicon-chevron-left"></span>
-                                </a>
-                                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                                  <span class="glyphicon glyphicon-chevron-right"></span>
-                                </a>
-                                -->
-                    </div><!-- ./#carousel-one -->
 
-                    <div class="espace-top">
-                      <h2 class="title-header">
-                        Busca por COAPES
+              <div>
 
-                        <a href="#" data-toggle="modal" data-target="#myModal">
-                          <span class="glyphicon glyphicon-exclamation-sign pull-right espace-right bt-explication">
+                <p>
+                  conteudo aqui
+                </p>
 
-                          </span>
-                        </a>
-                      </h2>
-
-                      <form class="busca-geral" action="#" method="post">
-                        <div class="form-group col-md-6">
-                          <select class="form-control">
-                            <option>Selecione um Estado</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                          </select>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                          <select class="form-control">
-                            <option>Selecione o município</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                          </select>
-                        </div>
-                      </form>
-                      <button type="submit" class="btn btn-primary bt-search pull-right">Buscar</button>
-                    </div>
-
-              </div><!-- ./col-2 -->
+              </div>
+            </div><!-- ./col-two -->
 
         </div><!-- ./container -->
 
