@@ -154,8 +154,9 @@
                             <option>5</option>
                           </select>
                         </div>
+                        <button type="submit" class="btn btn-primary bt-search pull-right">Buscar</button>
                       </form>
-                      <button type="submit" class="btn btn-primary bt-search pull-right">Buscar</button>
+
                     </div>
 
               </div><!-- ./col-2 -->

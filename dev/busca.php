@@ -32,366 +32,84 @@
 
             <div class="content remove-margin">
 
-                      <div class="title-header">
-                        <p>
-                          ÁREA DO USUÁRIO
-                        </p>
-                        <ul class="menu-title-header">
-                          <li>
-                            <a href="#">
-                              Alterar senha
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              Alterar dados
-                            </a>
-                          </li>
-                          <li>
-                            <a href="cadastro-contato.php">
-                              Novo contato
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              Detalhar
-                            </a>
-                          </li>
-                        </ul>
-                      </div><!-- ./title-header -->
 
-                      <div class="row">
-                        <div class="col-md-12">
-                          <p>
-                            Nullam in tortor quis felis vestibulum efficitur ut nec lectus. Praesent sed justo rhoncus, facilisis enim vitae, convallis sem. Morbi eros justo, sagittis ac ultrices vel, efficitur et magna. Donec sodales cursus ipsum. Pellentesque eu porttitor sapien. Praesent convallis auctor nisi, in volutpat eros condimentum ac. Nulla vitae lacus sed justo commodo blandit. Donec felis dui, sodales ut
-            Donec auctor nulla ornare ante semper, sit amet mollis lectus gravida. Maecenas risus augue, placerat vitae sem at, vehicula vehicula felis.
-                          </p>
-                        </div>
+              <h2 class="title-header">
+                Resultado da busca
+
+                <a href="#" data-toggle="modal" data-target="#exp-comite">
+                  <span class="glyphicon glyphicon-exclamation-sign pull-right espace-right bt-explication">
+
+                  </span>
+                </a>
+              </h2>
+
+              <div class="row">
+                <div class="col-md-12">
+
+                  <h4>Lista de COAPES por município Coordenador</h4>
+                  <br/>
+
+                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Natal
+                          </a>
+                        </h4>
                       </div>
-
-
-                      <div class="row espace-top">
-                            <div class="col-md-12">
-                                <div class="table-responsive">
-                                  <table class="table table-striped table-bordered table1" cellspacing="0" width="100%">
-                                          <thead>
-                                              <tr>
-                                                  <th>#</th>
-                                                  <th>Municípios</th>
-                                                  <th>IES</th>
-                                                  <th>Coordenador</th>
-                                              </tr>
-                                          </thead>
-
-                                          <tbody>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-                                              <tr>
-                                                  <td>1</td>
-                                                  <td>RN/Parnamirim RN/Natal RN/Caiçara do Norte RN/Caiçara do Rio do Vento RN/Mossoró</td>
-                                                  <td>ESTÁCIO FATERN ESTÁCIO DE NATAL FMN NATAL UERN UFRN</td>
-                                                  <td>
-                                                    <a href="#">
-                                                      <span class="glyphicon glyphicon-envelope"></span>
-                                                      <br/>
-                                                      Gestor Sus Parnamirim
-                                                    </a>
-                                                  </td>
-                                              </tr>
-
-
-                                          </tbody>
-                                      </table>
-                                </div>
-                            </div>
+                      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                         </div>
+                      </div><!-- ./#collapseOne-->
+                    </div><!-- ./panel-default -->
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Mossoró
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div><!-- ./#collapseTwo-->
+                    </div><!-- ./panel-default -->
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Caicó
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div><!-- ./#collapseThree-->
+                    </div><!-- ./panel-default -->
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingFour">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Açú
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                        <div class="panel-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div><!-- ./#collapseThree-->
+                    </div><!-- ./panel-default -->
+                  </div><!-- ./panel-group #accordion -->
+
+                </div><!-- ./col-md-12 -->
+              </div><!-- ./row -->
 
 
 
