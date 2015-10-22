@@ -60,8 +60,6 @@
                         </ul>
                       </div><!-- ./title-header -->
 
-                      </div><!-- ./title-header -->
-
                       <div class="row">
                         <div class="col-md-12">
                           <p>
@@ -96,7 +94,7 @@
                                 </div>
                                 <div class="form-row">
                                   <div class="form-group">
-                                    <button type="submit" class="btn btn-primary">Concluir</button>
+                                    <button type="submit" class="btn btn-primary pull-right">Concluir</button>
                                   </div>
                                 </div>
 

@@ -61,7 +61,6 @@
                         </ul>
                       </div><!-- ./title-header -->
 
-                      </div><!-- ./title-header -->
 
                       <div class="row">
                         <div class="col-md-12">
@@ -74,7 +73,7 @@
 
                       <div class="row">
                         <div class="col-md-12">
-                          <form role="form" action="" class="ds-dados" method="post" >
+                          <form role="form" action="/" class="ds-dados" method="post" >
                                 <div class="form-row">
                                   <div class="form-group">
                                     <label for="lb-municipio">Município</label>
@@ -89,7 +88,7 @@
                                 </div>
                                 <div class="form-row">
                                   <div class="form-group">
-                                    <button type="submit" class="btn btn-primary">Avançar</button>
+                                    <button type="submit" class="btn btn-primary pull-right">Avançar</button>
                                   </div>
                                 </div>
 

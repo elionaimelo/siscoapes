@@ -60,7 +60,6 @@
                         </ul>
                       </div><!-- ./title-header -->
 
-                      </div><!-- ./title-header -->
 
                       <div class="row">
                         <div class="col-md-12">
@@ -73,7 +72,7 @@
 
                       <div class="row">
                         <div class="col-md-12">
-                          <form role="form" action="" class="ds-dados" method="post" >
+                          <form role="form" action="cadastro-contrato1.php" class="ds-dados" method="post" >
 
                                 <div class="form-row">
                                   <div class="form-group">
@@ -89,7 +88,7 @@
                                 </div>
                                 <div class="form-row">
                                   <div class="form-group">
-                                    <button type="button" class="btn btn-primary">Concluir</button>
+                                    <button type="button" class="btn btn-primary pull-right">Concluir</button>
                                   </div>
                                 </div>
 
