@@ -134,7 +134,7 @@
                         </a>
                       </h2>
 
-                      <form class="busca-geral" action="#" method="post">
+                      <form class="busca-geral" action="busca.php" method="post">
                         <div class="form-group col-md-6">
                           <select class="form-control">
                             <option>Selecione um Estado</option>

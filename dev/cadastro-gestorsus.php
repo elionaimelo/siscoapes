@@ -62,10 +62,10 @@
                                   <div class="row">
                                     <div class="form-group col-md-7" style="padding-left:0px;">
                                       <label for="lb-nome-completo">Nome completo</label>
-                                      <input type="text" class="form-control" name="instituicao" placeholder="Digite seu nome completo" required>
+                                      <input type="text" class="form-control" name="nome" placeholder="Digite seu nome completo" required>
                                     </div>
                                     <div class="form-group col-md-5" style="padding-right:0px;">
-                                      <label for="lb-area1">Email</label>
+                                      <label for="lb-email">Email</label>
                                       <input type="text" class="form-control" name="email" placeholder="Informe um email válido">
                                     </div>
                                   </div>
@@ -73,45 +73,45 @@
                                 <div class="form-row">
                                   <div class="row">
                                     <div class="form-group col-md-4" style="padding-left:0px;">
-                                      <label for="lb-area1">Telefone</label>
-                                      <input type="text" class="form-control" name="email" placeholder="Informe um email válido">
+                                      <label for="lb-telefone">Telefone</label>
+                                      <input type="text" class="form-control" name="telefone" placeholder="Informe o telefone">
                                     </div>
                                     <div class="form-group col-md-4">
-                                      <label for="lb-area1">CPF</label>
-                                      <input type="text" class="form-control" name="email" placeholder="Informe um email válido">
+                                      <label for="lb-cpf">CPF</label>
+                                      <input type="text" class="form-control" name="cpf" placeholder="Informe o CPF">
                                     </div>
                                     <div class="form-group col-md-4" style="padding-left:0px;">
-                                      <label for="lb-area1">RG</label>
-                                      <input type="text" class="form-control" name="email" placeholder="Informe um email válido">
+                                      <label for="lb-rg">RG</label>
+                                      <input type="text" class="form-control" name="rg" placeholder="Informe o rg">
                                     </div>
                                   </div>
                                 </div>
                                 <div class="form-row">
                                   <div class="row">
                                     <div class="form-group col-md-7" style="padding-left:0px;">
-                                      <label for="lb-area1">Município</label>
-                                      <input type="text" class="form-control" name="email" placeholder="Informe um email válido">
+                                      <label for="lb-municipio">Município</label>
+                                      <input type="text" class="form-control" name="municipio" placeholder="Informe o municipio">
                                     </div>
 
                                     <div class="form-group col-md-5" style="padding-right:0px;">
                                       <label for="lb-area1">Comprovante</label>
-                                      <input type="file" class="file">
+                                      <input type="file" class="file" name="comprovante">
                                     </div>
                                   </div>
                                 </div>
                                 <div class="form-row">
                                   <div class="row">
                                     <div class="form-group col-md-4" style="padding-left:0px;">
-                                      <label for="lb-area1">Nome de usuário</label>
-                                      <input type="text" class="form-control" name="instituicao" placeholder="Digite seu nome completo" required>
+                                      <label for="lb-user">Nome de usuário</label>
+                                      <input type="text" class="form-control" name="usuario" placeholder="Informe o usuário" required>
                                     </div>
                                     <div class="form-group col-md-4" style="padding-right:0px;">
-                                      <label for="lb-nome-completo">Senha</label>
-                                      <input type="text" class="form-control" name="instituicao" placeholder="Digite seu nome completo" required>
+                                      <label for="lb-senha">Senha</label>
+                                      <input type="text" class="form-control" name="senha" value="123456" required>
                                     </div>
                                     <div class="form-group col-md-4" style="padding-right:0px;">
-                                      <label for="lb-nome-completo">Confirmação de Senha</label>
-                                      <input type="text" class="form-control" name="instituicao" placeholder="Digite seu nome completo" required>
+                                      <label for="lb-confirmSenha">Confirmação de Senha</label>
+                                      <input type="text" class="form-control" name="confirmSenha" placeholder="123456" required>
                                     </div>
                                   </div>
                                 </div>

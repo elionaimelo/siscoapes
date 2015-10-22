@@ -62,10 +62,10 @@
                                   <div class="row">
                                     <div class="form-group col-md-7" style="padding-left:0px;">
                                       <label for="lb-nome-completo">Nome completo</label>
-                                      <input type="text" class="form-control" name="instituicao" placeholder="Digite seu nome completo" required>
+                                      <input type="text" class="form-control" name="nome" placeholder="Digite seu nome completo" required>
                                     </div>
                                     <div class="form-group col-md-5" style="padding-right:0px;">
-                                      <label for="">Email</label>
+                                      <label for="lb-email">Email</label>
                                       <input type="email" class="form-control" name="email" placeholder="Informe um email válido">
                                     </div>
                                   </div>
@@ -73,15 +73,15 @@
                                 <div class="form-row">
                                   <div class="row">
                                     <div class="form-group col-md-4" style="padding-left:0px;">
-                                      <label for="">Telefone</label>
+                                      <label for="pb-telefone">Telefone</label>
                                       <input type="text" class="form-control" name="telefone" placeholder="Informe o telefone">
                                     </div>
                                     <div class="form-group col-md-4">
-                                      <label for="">CPF</label>
+                                      <label for="pb-cpf">CPF</label>
                                       <input type="text" class="form-control" name="cpf" placeholder="Informe o CPF">
                                     </div>
                                     <div class="form-group col-md-4" style="padding-left:0px;">
-                                      <label for="">RG</label>
+                                      <label for="lb-rg">RG</label>
                                       <input type="text" class="form-control" name="rg" placeholder="Informe o RG">
                                     </div>
                                   </div>
@@ -94,7 +94,7 @@
                                     </div>
 
                                     <div class="form-group col-md-7" style="padding-right:0px;">
-                                      <label for="lb-area1">Instituição formadora</label>
+                                      <label for="lb-instituicao">Instituição formadora</label>
                                       <input type="text" class="form-control" name="instituicao" placeholder="Informe a instituição formadora">
                                     </div>
                                   </div>
@@ -102,15 +102,15 @@
                                 <div class="form-row">
                                   <div class="row">
                                     <div class="form-group col-md-4" style="padding-left:0px;">
-                                      <label for="lb-area1">Nome de usuário</label>
+                                      <label for="lb-nome">Nome de usuário</label>
                                       <input type="text" class="form-control" name="nome-user" placeholder="Informe o nome de usuário" required>
                                     </div>
                                     <div class="form-group col-md-4" style="padding-right:0px;">
-                                      <label for="lb-nome-completo">Senha</label>
+                                      <label for="lb-senha">Senha</label>
                                       <input type="password" class="form-control" name="senha" value="123456" required>
                                     </div>
                                     <div class="form-group col-md-4" style="padding-right:0px;">
-                                      <label for="lb-nome-completo">Confirmação de Senha</label>
+                                      <label for="lb-confirmaSenha">Confirmação de Senha</label>
                                       <input type="password" class="form-control" name="confirmaSenha" value="123456" required>
                                     </div>
                                   </div>

@@ -75,14 +75,14 @@
 
                                 <div class="form-row">
                                   <div class="form-group">
-                                    <label for="lb-instituicao">Município</label>
-                                    <input type="text" class="form-control" name="instituicao" placeholder="Nome do Estado" disabled>
+                                    <label for="">Município</label>
+                                    <input type="text" class="form-control" name="municipio" placeholder="Nome do Município" disabled>
                                   </div>
                                 </div>
                                 <div class="form-row">
                                   <div class="form-group">
                                     <label for="lb-area1">ÁREA1 - FACULDADE DE CIÊNCIA E TECNOLOGIA (ÁREA1) irá atuar em</label>
-                                    <input type="text" class="form-control" name="email" placeholder="Informe um email válido" required>
+                                    <input type="text" class="form-control" name="area" placeholder="Informe a área" required>
                                   </div>
                                 </div>
                                 <div class="form-row">
