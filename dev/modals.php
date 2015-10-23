@@ -11,8 +11,8 @@
         Algum texto aqui
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
       </div>
     </div>
   </div>
@@ -29,8 +29,8 @@
         Algum texto aqui dos Indicadores do COAPES
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
       </div>
     </div>
   </div>
@@ -47,8 +47,8 @@
         Algum texto aqui dos Indicadores do CADASTRO DE MUNICÍPIOS PARTICIPANTES E INSTITUIÇÕES DE ENSINO
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
       </div>
     </div>
   </div>
@@ -64,8 +64,8 @@
         Algum texto aqui dos Indicadores do CADASTRO DE MUNICÍPIOS PARTICIPANTES E INSTITUIÇÕES DE ENSINO
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
       </div>
     </div>
   </div>
@@ -82,8 +82,8 @@
         Algum texto aqui dos Indicadores do COMITE NACIONAL
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
       </div>
     </div>
   </div>

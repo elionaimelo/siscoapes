@@ -18,7 +18,7 @@
               <div id="portal-breadcrumbs">
                 <span id="breadcrumbs-you-are-here">Você está aqui:</span>
                 <span id="breadcrumbs-home">
-                    <a href="#">Página Inicial</a>
+                    <a href="index.php">Página Inicial</a>
                 </span>
                 <span class="breadcrumbSeparator">
                     &gt;

@@ -24,7 +24,7 @@
                     &gt;
                 </span>
                 <span dir="ltr" id="breadcrumbs-2">
-                      <span id="breadcrumbs-current">Cadastro</span>
+                      <span id="breadcrumbs-current">Dashboard</span>
                 </span>
               </div><!-- ./portal-breadcrumbs -->
             </div><!-- ./viewlet-above-content -->
@@ -34,18 +34,12 @@
 
                       <div class="title-header">
                         <p>
-                          CADASTRO DE MUNICÍPIOS PARTICIPANTES E INSTITUIÇÕES DE ENSINO
-                          <a href="#" data-toggle="modal" data-target="#myModal2">
-                            <span class="glyphicon glyphicon-exclamation-sign pull-right espace-right bt-explication">
-
-                            </span>
-                          </a>
+                          ÁREA DO USUÁRIO
                         </p>
-
                         <ul class="menu-title-header">
                           <li>
                             <a href="#">
-                              Voltar
+                              Alterar senha
                             </a>
                           </li>
                           <li>
@@ -54,45 +48,52 @@
                             </a>
                           </li>
                           <li>
+                            <a href="cadastro-contato.php">
+                              Novo contato
+                            </a>
+                          </li>
+                          <li>
                             <a href="#">
-                              Alterar senha
+                              Detalhar
                             </a>
                           </li>
                         </ul>
                       </div><!-- ./title-header -->
 
-
                       <div class="row">
                         <div class="col-md-12">
                           <p>
-                            Selecione os municípios e instituições formadoras que farão parte do contrato.
+                            Nullam in tortor quis felis vestibulum efficitur ut nec lectus. Praesent sed justo rhoncus, facilisis enim vitae, convallis sem. Morbi eros justo, sagittis ac ultrices vel, efficitur et magna. Donec sodales cursus ipsum. Pellentesque eu porttitor sapien. Praesent convallis auctor nisi, in volutpat eros condimentum ac. Nulla vitae lacus sed justo commodo blandit. Donec felis dui, sodales ut
+            Donec auctor nulla ornare ante semper, sit amet mollis lectus gravida. Maecenas risus augue, placerat vitae sem at, vehicula vehicula felis.
                           </p>
                         </div>
                       </div>
 
 
-                      <div class="row">
-                        <div class="col-md-12">
-                          <form role="form" action="/" class="ds-dados" method="post" >
-                                <div class="form-row">
-                                  <div class="form-group">
-                                    <label for="lb-municipio">Município</label>
-                                    <input type="text" class="form-control" name="municipio" placeholder="Informe o nome do município ou código do IBGE" required>
-                                  </div>
-                                </div>
-                                <div class="form-row">
-                                  <div class="form-group">
-                                    <label for="lb-instituicao">Instituição formadora</label>
-                                    <input type="text" class="form-control" name="instituicao" placeholder="Informe o nome ou sigla da instituição" required>
-                                  </div>
-                                </div>
-                                <div class="form-row">
-                                  <div class="form-group">
-                                    <button type="submit" class="btn btn-primary pull-right">Avançar</button>
-                                  </div>
-                                </div>
 
-                            </form>
+                      <div class="row">
+
+                        <div class="col-md-6 col-md-offset-3">
+
+                              <div class="form-row">
+                                <div class="form-group">
+                                  <div class="center-block">
+                                    <label for="">Município</label>
+                                    <input type="text" class="form-control" name="municipio" placeholder="RN/Mossoró" disabled>
+                                    <p class="help-block">
+                                      <a href="#" data-toggle="modal" data-target="#exp-comite">
+                                        <span class="glyphicon glyphicon-exclamation-sign pull-right">
+
+                                        </span>
+                                      </a>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+
+
+
+
                         </div>
                       </div>
 
