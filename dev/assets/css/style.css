@@ -19,8 +19,8 @@ button.btn {
   background-color: #1659bf;
   color: white;
 }
-.icon-blue {
-  color: #1659bf;
+.icon-white {
+  color: white;
 }
 main {
   margin-top: 40px;
@@ -302,6 +302,26 @@ aside {
 .tabs-right > .nav-tabs .active > a:focus {
   border-color: #ddd #ddd #ddd transparent;
   *border-left-color: #ffffff;
+}
+.table-custom thead tr:first-child {
+  font-weight: bold;
+}
+.panel-default > .panel-custom {
+  background-color: #1659bf;
+  color: white;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  background-color: #f5f5f5;
+  color: black;
+  border: 1px solid #ccc;
+}
+.nav > li > a {
+  color: black;
+}
+.tab-content {
+  border-left: 1px solid #ccc;
 }
 .menu-title-header {
   margin-bottom: 0px;

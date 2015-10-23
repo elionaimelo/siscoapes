@@ -51,13 +51,13 @@
 
                   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="headingOne">
+                      <div class="panel-heading panel-custom" role="tab" id="headingOne">
                         <h4 class="panel-title">
                           <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             Município coordenador
                           </a>
                           <a href="#" data-toggle="modal" data-target="#exp-comite">
-                            <span class="glyphicon glyphicon-exclamation-sign pull-right icon-blue bt-explication">
+                            <span class="glyphicon glyphicon-exclamation-sign pull-right icon-white bt-explication">
 
                             </span>
                           </a>
@@ -77,7 +77,7 @@
                               </div>
                               <div id="collapse1-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1-1">
                                 <div class="panel-body">
-                                  <table class="table table-striped">
+                                  <table class="table table-striped table-custom">
                                     <thead>
                                       <tr>
                                         <td>
@@ -233,13 +233,13 @@
                       </div><!-- ./#collapseOne-->
                     </div><!-- ./panel-default -->
                     <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="headingTwo">
+                      <div class="panel-heading panel-custom" role="tab" id="headingTwo">
                         <h4 class="panel-title">
                           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             Municípios participantes
                           </a>
                           <a href="#" data-toggle="modal" data-target="#exp-comite">
-                            <span class="glyphicon glyphicon-exclamation-sign pull-right icon-blue bt-explication">
+                            <span class="glyphicon glyphicon-exclamation-sign pull-right icon-white bt-explication">
 
                             </span>
                           </a>
@@ -255,7 +255,7 @@
                         </ul>
                         <div class="tab-content col-md-10">
                                 <div class="tab-pane active" id="tab_a">
-                                  <table class="table table-striped">
+                                  <table class="table table-striped table-custom">
                                     <thead>
                                       <tr>
                                         <td>
@@ -404,7 +404,7 @@
                                   </table>
                                 </div><!-- Macaíba -->
                                 <div class="tab-pane" id="tab_b">
-                                  <table class="table table-striped">
+                                  <table class="table table-striped table-custom">
                                     <thead>
                                       <tr>
                                         <td>
@@ -553,7 +553,7 @@
                                   </table>
                                 </div><!--extremoz -->
                                 <div class="tab-pane" id="tab_c">
-                                  <table class="table table-striped">
+                                  <table class="table table-striped table-custom">
                                     <thead>
                                       <tr>
                                         <td>
@@ -708,13 +708,13 @@
                       </div><!-- ./#collapseTwo-->
                     </div><!-- ./panel-default -->
                     <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="headingThree">
+                      <div class="panel-heading panel-custom" role="tab" id="headingThree">
                         <h4 class="panel-title">
                           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             Instituições de ensino
                           </a>
                           <a href="#" data-toggle="modal" data-target="#exp-comite">
-                            <span class="glyphicon glyphicon-exclamation-sign pull-right icon-blue bt-explication">
+                            <span class="glyphicon glyphicon-exclamation-sign pull-right icon-white bt-explication">
 
                             </span>
                           </a>
@@ -724,12 +724,12 @@
                         <div class="panel-body">
 
                           <ul class="nav nav-pills nav-stacked col-md-2">
-                          <li class="active"><a href="#tab_a" data-toggle="pill">UFRN</a></li>
-                          <li><a href="#tab_b" data-toggle="pill">UNP</a></li>
+                          <li class="active"><a href="#tab_1" data-toggle="pill">UFRN</a></li>
+                          <li><a href="#tab_2" data-toggle="pill">UNP</a></li>
                         </ul>
                         <div class="tab-content col-md-10">
-                                <div class="tab-pane active" id="tab_a">
-                                  <table class="table table-striped">
+                                <div class="tab-pane active" id="tab_1">
+                                  <table class="table table-striped table-custom">
                                     <thead>
                                       <tr>
                                         <td>
@@ -877,8 +877,8 @@
                                     </tbody>
                                   </table>
                                 </div><!-- Macaíba -->
-                                <div class="tab-pane" id="tab_b">
-                                  <table class="table table-striped">
+                                <div class="tab-pane" id="tab_2">
+                                  <table class="table table-striped table-custom">
                                     <thead>
                                       <tr>
                                         <td>
@@ -1034,13 +1034,13 @@
                       </div><!-- ./#collapseThree-->
                     </div><!-- ./panel-default -->
                     <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="headingFour">
+                      <div class="panel-heading panel-custom" role="tab" id="headingFour">
                         <h4 class="panel-title">
                           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             Documentos do COAPES
                           </a>
                           <a href="#" data-toggle="modal" data-target="#exp-comite">
-                            <span class="glyphicon glyphicon-exclamation-sign pull-right icon-blue bt-explication">
+                            <span class="glyphicon glyphicon-exclamation-sign pull-right icon-white bt-explication">
 
                             </span>
                           </a>
@@ -1051,12 +1051,12 @@
                           <ul>
                             <li>
                               <a href="#">
-                                Termo geral
+                                <span class="glyphicon glyphicon-list-alt"></span>  Termo geral
                               </a>
                             </li>
                             <li>
                               <a href="">
-                                Termo Aditivo
+                                <span class="glyphicon glyphicon-list-alt"></span>  Termo Aditivo
                               </a>
                             </li>
                           </ul>

@@ -24,8 +24,8 @@ button.btn  {
   color: white;
 }
 
-.icon-blue {
-  color: @azul3;
+.icon-white {
+  color: white;
 }
 
 main {
@@ -369,4 +369,31 @@ aside {
 .tabs-right > .nav-tabs .active > a:focus {
   border-color: #ddd #ddd #ddd transparent;
   *border-left-color: #ffffff;
+}
+
+.table-custom {
+  thead {
+    tr:first-child {
+      font-weight:bold;
+    }
+  }
+}
+
+.panel-default>.panel-custom {
+  background-color:@azul3;
+  color: white;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background-color: #f5f5f5;
+  color: black;
+  border:1px solid #ccc;
+}
+
+.nav>li>a {
+  color: black;
+}
+
+.tab-content {
+  border-left: 1px solid #ccc;
 }
