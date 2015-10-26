@@ -42,7 +42,7 @@
                       </a>
                       <div class="collapse" id="collapse1">
                         <ul class="sub-navTree">
-                          <li><a href="cadastro-represetante.php">Cadastramento</a></li>
+                          <li><a href="cadastro-representante.php">Cadastramento</a></li>
                           <li>
                             <a href="login.php">
                                 Login
