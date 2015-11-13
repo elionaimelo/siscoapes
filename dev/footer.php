@@ -109,14 +109,20 @@
           <div class="extra-footer">
               <div class="container">
                 <div class="row">
-                  <div class="col-md-4">
-                    <img src="assets/img/lais.jpg" alt="" class="img-responsive center-block">
+                  <div class="col-md-3">
+                    <img src="assets/img/min-saude.jpg" alt="" class="img-responsive  center-block">
                   </div>
-                  <div class="col-md-4">
-                    <img src="assets/img/huol.jpg" alt="" class="img-responsive center-block">
+                  <div class="col-md-3">
+                    <img src="assets/img/sus1.jpg" alt="" class="img-responsive  center-block">
                   </div>
-                  <div class="col-md-4">
-                    <img src="assets/img/ufrn.jpg" alt="" class="img-responsive center-block">
+                  <div class="col-md-2">
+                    <img src="assets/img/lais.jpg" alt="" class="img-responsive  center-block">
+                  </div>
+                  <div class="col-md-2">
+                    <img src="assets/img/huol.jpg" alt="" class="img-responsive  center-block">
+                  </div>
+                  <div class="col-md-2">
+                    <img src="assets/img/ufrn.jpg" alt="" class="img-responsive  center-block">
                   </div>
                 </div>
               </div>
