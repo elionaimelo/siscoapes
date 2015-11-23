@@ -133,11 +133,14 @@
       <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
       <script type="text/javascript" src="assets/js/vendor/datatables.min.js"></script>
+      <!-- Include the plugin -->
+      <script type="text/javascript" src="assets/js/bootstrap-multiselect.js"></script>
 
       <script src="assets/js/vendor/bootstrap.min.js"></script>
       <script src="assets/js/scripts.min.js"></script>
 
       <script defer="defer" src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>
+
 
 
 

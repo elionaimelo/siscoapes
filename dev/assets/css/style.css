@@ -331,6 +331,12 @@ div.dataTables_wrapper div.dataTables_paginate a:hover {
   color: #1659bf;
   cursor: pointer;
 }
+.remove-padding-left {
+  padding-left: 0px;
+}
+.remove-padding-right {
+  padding-right: 0px;
+}
 .menu-title-header {
   margin-bottom: 0px;
   margin-top: -7px;
